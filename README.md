@@ -1,1 +1,4 @@
-Hello i'm Nguyen Duc Tuan, i'm in class INT2215 22 and this is my Advanced Programming Exercises!
+*Hello i'm Nguyen Duc Tuan
+*Student code 19021382
+*I'm in class INT2215 22
+*his is my Advanced Programming Exercises!
