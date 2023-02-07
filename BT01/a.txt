@@ -1,0 +1,39 @@
+1. Lệnh này sẽ gán cho giá trị bool isA true nếu <= 90 grade <= 100, đoạn code sai cú pháp, phải sửa thành:
+    bool isA = (90 <= grade && grade <= 100);
+
+2. Đoạn code in ra 0.
+
+3. Bởi vì tích của 2 giá trị x * x được tính là giá trị int mà int không thể lưu trữ được giá trị quá lớn là 2^32. Vì vậy cần sửa:
+    int x = 65536;
+        unsigned long long y = (unsigned long long) x * x;
+        cout << y;
+
+4. Biểu thức có giá trị false.
+
+5. Khi đem chia một giá trị kiểu int hoặc double cho 0 hoặc lấy đồng dư cho 0 thì chương trình vẫn chạy bình thường nhưng không cho ra kết quả của phép chia.
+
+6. *Trình biên dịch trả ra lỗi sau với đoạn code: int a = 27 * "three":
+    error: invalid operands of types 'int' and 'const char [6]' to binary 'operator*
+
+    *Trình biên dịch không trả ra lỗi gì khi chạy đoạn code:
+    double x; 
+    cout << x;
+    Nhưng in kết quả ra 1 số lạ: 1.05153e-311
+
+    *Khi chuyển dòng khai báo x ra ngoài hàm main thì in ra kết quả là 0.
+
+7. Đoạn code cho ra output:
+    0
+    0.75
+    0.75
+    0.75
+
+8. Trình biên dịch báo lỗi: error: conflicting declaration 'char arg1', note: previous declaration as 'int arg1'
+
+9. Đoạn code chạy thành công và in ra kết quả là A => Khi ở bên trong khối lệnh con, định danh arg1 chỉ tới biến arg1 nằm trong khối lệnh con.
+
+10. Đoạn code chạy thành công và in ra kết quả là -1 => Khi ra khỏi khối lệnh con, định danh arg1 chỉ tới biến arg1 nằm bên ngoài khối lệnh con.
+
+11. Đoạn code trên phải sửa thành: double C = (F - 32.0) * (5.0 / 9.0);
+
+12. Đoạn code in ra kết quả Here
