@@ -5,14 +5,19 @@ int main()
 {
     int n;
     cin >> n;
-    int a[100];
-    for (int i = 0; i <= n; i++)
-    {
-        a[i] = i;
-    }
+
     for (int i = 1; i <= n; i++)
     {
-        cout << a[i+1] << " ";
+        for (int j = i; j <= n; j++)
+        {
+            cout << j << " ";
+        }
+        for (int j = 1; j < i; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
     }
+
     return 0;
 }
