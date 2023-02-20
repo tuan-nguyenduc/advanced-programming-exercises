@@ -1,14 +1,13 @@
 #include <iostream>
+#include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
-    int i = -3;
-    for (;;)
+    if (
+        !(-2))
     {
-        cout << "Hello, world!\n";
-        i++;
-        if (i == 0)
-            break;
-    };
+        cout << "yes";
+    }
 }

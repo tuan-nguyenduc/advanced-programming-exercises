@@ -1,0 +1,21 @@
+1. Khoi tao mang 1 chieu 
+    a. khong loi kq chay ra nhung gia tri ngau nhien
+    b. Loi tran mang
+    c. Chay dung, in ra dung cac gia tri cua mang
+
+2. khoi tao string
+    a. khong bi loi nhung khong in ra gi trong ca 2TH 
+    b. chay dung
+
+3. khoi tao mang nhieu chieu
+    a. Hieu qua khoi tao la nhu nhau
+    b. Cach1: Neu xoa bot cac gia tri khoi tao thi khi in ra se mat cac phan tu do theo dung vi tri xoa tung hang
+       Cach2: Neu xoa bot cac gia tri khoi tao thi khi in ra se mat cac phan tu do khong theo vi tri tung hang. Cac phan tu con lai se don lai voi nhau.
+    c. Cach1 va Cach2: Chi co the bo gia tri so dong, cac gia tri kich thuoc con lai khong the bo neu khong se bao loi.
+
+4. Tran mang
+    a. Khi doc gia tri mang co chi so -1 thi khong in ra gi. Khi doc gia tri N va N-1 thi doc trung cac gia tri khong phai mang ma trung cac bien da khoi tao.
+    b. Cac bien da bi sua gia tri khi ghi tran
+
+5. 
+
