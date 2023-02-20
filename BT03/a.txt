@@ -17,5 +17,5 @@
     a. Khi doc gia tri mang co chi so -1 thi khong in ra gi. Khi doc gia tri N va N-1 thi doc trung cac gia tri khong phai mang ma trung cac bien da khoi tao.
     b. Cac bien da bi sua gia tri khi ghi tran
 
-5. 
+5. Bubble sort
 
