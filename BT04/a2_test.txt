@@ -1,0 +1,25 @@
+TEST a:
+3 5
+1 2 3 4 5
+
+TEST b:
+6 5
+1 2 3 4 5
+
+TEST c:
+6 0
+
+TEST d:
+6 1
+
+TEST e
+1 1
+1
+
+TEST f:
+1 5
+1 2 3 4 5
+
+TEST g:
+5 5
+1 2 3 4 5
