@@ -4,5 +4,6 @@
         "random": "cpp",
         "iomanip": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
