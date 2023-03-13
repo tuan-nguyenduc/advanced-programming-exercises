@@ -1,0 +1,14 @@
+A2.
+Chay thu bi loi vi ham de quy nay thieu case base.
+
+A3.
+Chay thu bi loi vi cong thuc de quy bi sai.
+
+A4.
+Chay thu bi loi vi N qua lon nen ham de quy bi qua tai bo nho.
+
+A5.
+Thoi gian chay bang vong lap nhanh hon.
+
+A6.
+de quy o 1 so lon hon 100 bi tran bo nho.
