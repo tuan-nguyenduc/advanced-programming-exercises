@@ -6,7 +6,13 @@ int main()
 {
     int m, n;
     cin >> m >> n;
-    char a[m][n];
+
+    char** a = new char*[m];
+    for (int i = 0; i < m; i++)
+    {
+        a[i] = new char[n];
+    }
+
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -14,51 +20,39 @@ int main()
             cin >> a[i][j];
         }
     }
+
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            if (a[i][j] == "." && i >= 0 && j >= 0)
+            if (a[i][j] == '*')
+            {
+                cout << '*' << ' ';
+            }
+            else
             {
                 int count = 0;
-                if (a[i - 1][j - 1] == "*")
+                for (int k = i-1; k <= i+1; k++)
                 {
-                    count++;
+                    for (int l = j-1; l <= j+1; l++)
+                    {
+                        if (k>=0 && k<m && l>=0 && l<n && a[k][l] == '*')
+                        {
+                            count++;
+                        }
+                    }
                 }
-                // if (a[i - 1][j] == "*")
-                // {
-                //     count++;
-                // }
-                // if (a[i - 1][j + 1] == "*")
-                // {
-                //     count++;
-                // }
-                // if (a[i][j - 1] == "*")
-                // {
-                //     count++;
-                // }
-                // if (a[i][j + 1] == "*")
-                // {
-                //     count++;
-                // }
-                // if (a[i + 1][j - 1] == "*")
-                // {
-                //     count++;
-                // }
-                // if (a[i + 1][j + 1] == "*")
-                // {
-                //     count++;
-                // }
-                a[i][j] = to_string(count);
-                cout << a[i][j] << " ";
-            }
-            if (a[i][j] == "*")
-            {
-                cout << "*"
-                     << " ";
+                cout << count << ' ';
             }
         }
         cout << endl;
     }
+
+    for (int i = 0; i < m; i++)
+    {
+        delete[] a[i];
+    }
+    delete[] a;
+
     return 0;
 }
